@@ -14,3 +14,25 @@ db.once('open', () => {
     console.log(`API server running on port ${PORT}!`);
   });
 });
+
+// {
+// 	"username": "Yubaba",
+// 	"email": "washiwish@email.com"
+// }
+
+// {
+//   "username": "Chihiro",
+//   "email": "spirited@email.com"
+// }
+// {
+//   "username": "Kiki",
+//   "email": "deliverywitch@email.com"
+// }
+// {
+//   "username": "Totoro",
+//   "email": "forestspirit@email.com"
+// }
+// {
+//   "username": "Howl",
+//   "email": "movingcastle@email.com"
+// }
