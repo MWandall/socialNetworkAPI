@@ -95,7 +95,7 @@ async removeFriend(req, res) {
       return res.status(404).json({ message: 'No user with this id!' });
     }
 
-    res.json(user);
+    res.json({ message: 'Friend removed.' });
   } catch (err) {
     res.status(500).json(err);
   }
